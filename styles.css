@@ -119,6 +119,8 @@ button{
     a:hover{text-decoration: underline;}
     }
 
+
+
                     /* desktop view */
 
 @media screen and (min-width: 376px) and (max-width: 1440px){
@@ -170,7 +172,12 @@ button{
         border-radius: 4em;
     }
 
-    .attribution> p{color: var(--luxury-color);}
+    button:hover{
+        border: 2px solid var(--bg-color);
+        cursor: pointer;
+        background-color: transparent;
+        color: var(--bg-color);
+    }
 
     .attribution{
         display: flex;
